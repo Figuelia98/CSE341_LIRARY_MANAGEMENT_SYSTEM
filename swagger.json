@@ -5,10 +5,9 @@
     "description": " Finale project API CSE41 Class BYU IDAHO Software Development",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341-lirary-management-system.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
