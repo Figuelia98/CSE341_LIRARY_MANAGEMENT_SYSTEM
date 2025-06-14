@@ -1,0 +1,10 @@
+const express = require('express');
+const borrowerController = require('../controllers/borrower');
+const router = express.Router();
+const{isAuthenticated} = require("../middleware/authenticate");
+router.get('/', borrowerController.listBorrowers);
+router.get('/:id', borrowerController.getBorrower);
+router.post('/',isAuthenticated, borrowerController.createBorrower);
+router.put('/:id',isAuthenticated, borrowerController.updateBorrower);
+router.delete('/:id',isAuthenticated, borrowerController.deleteBorrower);
+module.exports = router;

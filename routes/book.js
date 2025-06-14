@@ -1,0 +1,10 @@
+const express = require('express');
+const bookController = require('../controllers/book');
+const router = express.Router();
+const{isAuthenticated} = require("../middleware/authenticate");
+router.get('/', bookController.listBooks);
+router.get('/:id', bookController.getBook);
+router.post('/',isAuthenticated, bookController.createBook);
+router.put('/:id',isAuthenticated, bookController.updateBook);
+router.delete('/:id',isAuthenticated, bookController.deleteBook);
+module.exports = router;
