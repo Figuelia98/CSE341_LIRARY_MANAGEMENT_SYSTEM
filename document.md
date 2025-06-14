@@ -78,11 +78,3 @@ This document outlines the **division of work and individual contributions** for
 | **Onesmus Dzidzai Maenzanise** |     |      |  ✅  |        |         |         |                |       |
 | **Terri-Anne Venter**          |     |      |     |    ✅   |         |         | ✅ (Node setup) |       |
 | **Greice F. de Andrade**       |     |      |     |        |    ✅    |    ✅    |                |       |
-
----
-
-## 🏁 Conclusion
-
-Each member took ownership of multiple technical areas, ensuring the success of the team’s collaborative API project. This documentation clearly showcases **individual mastery** of backend tasks, database integration, and professional documentation standards.
-
-Let me know if you'd like this in **PDF**, **Markdown**, or embedded into your **Swagger page or repo README**.
