@@ -36,6 +36,7 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "jest": "^30.0.0",
     "swagger-autogen": "^2.23.7"
   }
 }
